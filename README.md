@@ -1,6 +1,6 @@
 # sha512 Twig Filter plugin for Craft CMS 3.x
 
-A simple filter for twig to hash a string with sha512.
+A simple filter for twig to hash a string with sha1.
 
 ## Acknowledgements
 
@@ -8,7 +8,7 @@ Based on the MD5 Twig filter from Steadfast Collective. https://packagist.org/pa
 
 ## Requirements
 
-This plugin requires Craft CMS 3.1.0 or later.
+This plugin requires Craft CMS 4 or later.
 
 ## Installation
 
@@ -20,15 +20,14 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require christopherdowson/sha512twigfilter
+        composer require christopherdowson/sha1twigfilter
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for sha512 Twig Filter.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for sha1 Twig Filter.
 
 ## Using sha512 Twig Filter
 
-        {{ sha512("some string" }}
-        {{ "some string" | sha512 }}
+        {{ sha1("some string" }}
+        {{ "some string" | sha1 }}
 
-Brought to you by [Christopher Dowson](https://christopherdowson.studio/)
-# SHA512TwigFilter
+Brought to you by [Christopher Dowson](https://myfirstraygun.studio/)
 # SHA1TwigFilter
