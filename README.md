@@ -30,4 +30,5 @@ To install the plugin, follow these instructions.
         {{ "some string" | sha1 }}
 
 Brought to you by [Christopher Dowson](https://myfirstraygun.studio/)
+Glasses by tulpahn from [Noun Project](https://thenounproject.com/browse/icons/term/glasses/")
 # SHA1TwigFilter
