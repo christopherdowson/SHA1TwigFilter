@@ -1,6 +1,6 @@
 {
-    "name": "christopherdowson/sha512twigfilter",
-    "description": "A filter for twig to hash a string with sha512",
+    "name": "christopherdowson/sha1twigfilter",
+    "description": "A filter for twig to hash a string with sha1",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
@@ -8,7 +8,7 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "sha512 twig filter"
+        "sha1 twig filter"
     ],
     "support": {
         "docs": "https://christopherdowson.studio/",
@@ -18,7 +18,7 @@
     "authors": [
         {
             "name": "Christopher Dowson",
-            "homepage": "https://christopherdowson.studio/"
+            "homepage": "https://myfirstraygun.studio/"
         }
     ],
     "require": {
@@ -26,15 +26,15 @@
     },
     "autoload": {
         "psr-4": {
-          "christopherdowson\\sha512twigfilter\\": "src/"
+          "christopherdowson\\sha1twigfilter\\": "src/"
         }
     },
     "extra": {
-        "name": "sha512 Twig Filter",
-        "handle": "sha512-twig-filter",
+        "name": "sha1 Twig Filter",
+        "handle": "sha1-twig-filter",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://github.com/christopherdowson/SHA512TwigFilter/blob/master/CHANGELOG.md",
-        "class": "christopherdowson\\sha512twigfilter\\sha512TwigFilter"
+        "class": "christopherdowson\\sha1twigfilter\\sha1TwigFilter"
     }
 }

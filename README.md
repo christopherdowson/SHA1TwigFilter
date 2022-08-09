@@ -1,4 +1,4 @@
-# sha512 Twig Filter plugin for Craft CMS 3.x
+# sha1 Twig Filter plugin for Craft CMS 3.x
 
 A simple filter for twig to hash a string with sha1.
 
@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for sha1 Twig Filter.
 
-## Using sha512 Twig Filter
+## Using sha1 Twig Filter
 
         {{ sha1("some string" }}
         {{ "some string" | sha1 }}
