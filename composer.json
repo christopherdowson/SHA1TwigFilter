@@ -2,7 +2,7 @@
     "name": "christopherdowson/sha1twigfilter",
     "description": "A filter for twig to hash a string with sha1",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
