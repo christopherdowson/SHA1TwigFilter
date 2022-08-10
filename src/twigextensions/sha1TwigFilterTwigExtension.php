@@ -1,6 +1,6 @@
 <?php
 /**
- * sha1 Twig Filter plugin for Craft CMS 4
+ * sha1 Twig Filter plugin for Craft CMS 3.x/4.x
  *
  * A filter for twig to hash a string with sha1, based on the md5 filter by Daniel Jones.
  *
@@ -50,7 +50,7 @@ class sha1TwigFilterTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('sha1', [$this, 'strSha512']),
+            new \Twig_SimpleFilter('sha1', [$this, 'strSha1']),
         ];
     }
 
@@ -64,7 +64,7 @@ class sha1TwigFilterTwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('sha1', [$this, 'strSha512']),
+            new \Twig_SimpleFunction('sha1', [$this, 'strSha1']),
         ];
     }
 
@@ -75,7 +75,7 @@ class sha1TwigFilterTwigExtension extends \Twig_Extension
      *
      * @return string
      */
-    public function strSha512($text = null)
+    public function strSha1($text = null)
     {
         $result = hash( 'sha1', $text );
 
