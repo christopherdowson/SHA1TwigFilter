@@ -34,7 +34,7 @@
         "handle": "sha1-twig-filter",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://github.com/christopherdowson/SHA512TwigFilter/blob/master/CHANGELOG.md",
+        "changelogUrl": "https://github.com/christopherdowson/SHA1TwigFilter/blob/master/CHANGELOG.md",
         "class": "christopherdowson\\sha1twigfilter\\sha1TwigFilter"
     }
 }
